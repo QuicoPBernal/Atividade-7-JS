@@ -1,0 +1,65 @@
+//Atividade 01
+//Crie uma arrow function chamada multiplicar que recebe dois números como argumentos e retorna o resultado da multiplicação desses números.
+// function multiplicar(num1, num2) {
+//   return num1 * num2;
+// }
+
+// function imprimirResultado(operacao) {
+//   let num1 = parseInt(prompt("Digite o primeiro número:"));
+//   let num2 = parseInt(prompt("Digite o segundo número:"));
+//   let resultado = operacao(num1, num2);
+//   console.log(`O resultado da multiplicação é: ${resultado}`)
+// }
+
+// imprimirResultado(multiplicar);
+
+
+//Atividade 02
+//Crie uma arrow function chamada contarVogais que recebe uma string como argumento e retorna a quantidade de vogais na string.
+// function contarVogais(string) {
+//   let vogais = ['a', 'e', 'i', 'o', 'u'];
+//   let contador = 0;
+//   for (let i = 0; i < string.length; i++) {
+//     if (vogais.includes(string[i].toLowerCase())) {
+//       contador++;
+//     }
+//   }
+//   return contador;
+// }
+
+// function imprimirResultado(operacao) {
+//   let string = prompt("Digite uma string:");
+//   let resultado = operacao(string);
+//   console.log(`A quantidade de vogais na string é: ${resultado}`);
+// }
+
+// imprimirResultado(contarVogais);
+
+
+//Atividade 03
+//Crie uma função chamada converterTemperatura que recebe uma temperatura em graus Celsius e uma função de callback para conversão como argumentos. A função deve aplicar a função de callback à temperatura e retornar o resultado.
+// function converterTemperatura(temperatura) {
+//   return temperatura * 9/5 + 32;
+// }
+// function imprimirResultado(operacao) {
+//   let temperatura = parseFloat(prompt("Digite a temperatura em graus Celsius:"));
+//   let resultado = operacao(temperatura);
+//   console.log(`A temperatura em graus Fahrenheit é: ${resultado}`);
+// }
+// imprimirResultado(converterTemperatura);
+
+
+//Atividade 04
+//Implemente uma função (callback) que receba um número como parâmetro e informe o cubo desse número
+// function cubo(numero) {
+//   return numero * numero * numero;
+// }
+// const multiplicacao = (numero) => numero * numero * numero;
+
+// function imprimirResultado(operacao) {
+//   let numero = parseInt(prompt("Digite um número:"));
+//   let resultado = operacao(numero);
+//   console.log(`O cubo do número é: ${resultado}`);
+// }
+
+// imprimirResultado(cubo);
